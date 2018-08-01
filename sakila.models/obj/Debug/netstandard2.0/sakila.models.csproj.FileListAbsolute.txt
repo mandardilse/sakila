@@ -1,0 +1,9 @@
+D:\Practice\ASPNETCORE\sakila\sakila.models\bin\Debug\netstandard2.0\sakila.models.deps.json
+D:\Practice\ASPNETCORE\sakila\sakila.models\bin\Debug\netstandard2.0\sakila.models.dll
+D:\Practice\ASPNETCORE\sakila\sakila.models\bin\Debug\netstandard2.0\sakila.models.pdb
+D:\Practice\ASPNETCORE\sakila\sakila.models\obj\Debug\netstandard2.0\sakila.models.csprojAssemblyReference.cache
+D:\Practice\ASPNETCORE\sakila\sakila.models\obj\Debug\netstandard2.0\sakila.models.csproj.CoreCompileInputs.cache
+D:\Practice\ASPNETCORE\sakila\sakila.models\obj\Debug\netstandard2.0\sakila.models.AssemblyInfoInputs.cache
+D:\Practice\ASPNETCORE\sakila\sakila.models\obj\Debug\netstandard2.0\sakila.models.AssemblyInfo.cs
+D:\Practice\ASPNETCORE\sakila\sakila.models\obj\Debug\netstandard2.0\sakila.models.dll
+D:\Practice\ASPNETCORE\sakila\sakila.models\obj\Debug\netstandard2.0\sakila.models.pdb
