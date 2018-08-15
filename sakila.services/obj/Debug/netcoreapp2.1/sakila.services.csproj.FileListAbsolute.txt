@@ -1,0 +1,14 @@
+D:\Practice\ASPNETCORE\sakila\sakila.services\bin\Debug\netcoreapp2.1\sakila.services.deps.json
+D:\Practice\ASPNETCORE\sakila\sakila.services\bin\Debug\netcoreapp2.1\sakila.services.dll
+D:\Practice\ASPNETCORE\sakila\sakila.services\bin\Debug\netcoreapp2.1\sakila.services.pdb
+D:\Practice\ASPNETCORE\sakila\sakila.services\bin\Debug\netcoreapp2.1\sakila.core.dll
+D:\Practice\ASPNETCORE\sakila\sakila.services\bin\Debug\netcoreapp2.1\sakila.models.dll
+D:\Practice\ASPNETCORE\sakila\sakila.services\bin\Debug\netcoreapp2.1\sakila.models.pdb
+D:\Practice\ASPNETCORE\sakila\sakila.services\bin\Debug\netcoreapp2.1\sakila.core.pdb
+D:\Practice\ASPNETCORE\sakila\sakila.services\obj\Debug\netcoreapp2.1\sakila.services.csprojAssemblyReference.cache
+D:\Practice\ASPNETCORE\sakila\sakila.services\obj\Debug\netcoreapp2.1\sakila.services.csproj.CoreCompileInputs.cache
+D:\Practice\ASPNETCORE\sakila\sakila.services\obj\Debug\netcoreapp2.1\sakila.services.AssemblyInfoInputs.cache
+D:\Practice\ASPNETCORE\sakila\sakila.services\obj\Debug\netcoreapp2.1\sakila.services.AssemblyInfo.cs
+D:\Practice\ASPNETCORE\sakila\sakila.services\obj\Debug\netcoreapp2.1\sakila.services.csproj.CopyComplete
+D:\Practice\ASPNETCORE\sakila\sakila.services\obj\Debug\netcoreapp2.1\sakila.services.dll
+D:\Practice\ASPNETCORE\sakila\sakila.services\obj\Debug\netcoreapp2.1\sakila.services.pdb
