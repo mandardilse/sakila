@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using sakila.models.config;
+using sakila.core;
+using sakila.services;
+using sakila.services.Db;
 
 namespace sakila.web
 {
@@ -22,6 +25,11 @@ namespace sakila.web
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.Configure<ApplicationSettings>(Configuration);
+			//Resolve core module dependency
+			services.AddCoreModule();
+			//Resolve service module dependency.
+			services.AddServiceModule();
+			services.AddDbContext<SakilaDbContext>();
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
 			// In production, the Angular files will be served from this directory

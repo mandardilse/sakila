@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace sakila.web
+namespace sakila.models.Db
 {
-    public partial class Country
-    {
-        public Country()
-        {
-            City = new HashSet<City>();
-        }
+	public partial class Country
+	{
+		public Country()
+		{
+			City = new HashSet<City>();
+		}
 
-        public short CountryId { get; set; }
-        public string Country1 { get; set; }
-        public DateTime? LastUpdate { get; set; }
+		public short CountryId { get; set; }
+		public string Country1 { get; set; }
+		public DateTime? LastUpdate { get; set; }
 
-        public ICollection<City> City { get; set; }
-    }
+		public ICollection<City> City { get; set; }
+	}
 }

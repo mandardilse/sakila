@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace sakila.web
 {
+	/*
     public partial class sakilaContext : DbContext
     {
         public sakilaContext()
@@ -750,4 +751,5 @@ namespace sakila.web
             });
         }
     }
+     */
 }

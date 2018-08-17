@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace sakila.web
+namespace sakila.models.Db
 {
     public partial class FilmActor
     {

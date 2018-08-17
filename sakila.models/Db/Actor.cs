@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace sakila.web
+namespace sakila.models.Db
 {
-    public partial class Actor
-    {
-        public Actor()
-        {
-            FilmActor = new HashSet<FilmActor>();
-        }
+	public partial class Actor
+	{
+		public Actor()
+		{
+			FilmActor = new HashSet<FilmActor>();
+		}
 
-        public int ActorId { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public DateTime LastUpdate { get; set; }
+		public int ActorId { get; set; }
+		public string FirstName { get; set; }
+		public string LastName { get; set; }
+		public DateTime LastUpdate { get; set; }
 
-        public ICollection<FilmActor> FilmActor { get; set; }
-    }
+		public ICollection<FilmActor> FilmActor { get; set; }
+	}
 }

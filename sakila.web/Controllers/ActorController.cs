@@ -1,6 +1,9 @@
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using sakila.models.config;
+using sakila.models.Db;
+using sakila.services.Domain;
 
 namespace sakila.web.Controllers
 {
@@ -8,15 +11,19 @@ namespace sakila.web.Controllers
 	public class ActorController : Controller
 	{
 		private readonly IOptions<ApplicationSettings> _options;
-		public ActorController(IOptions<ApplicationSettings> options)
+		private IActorService _actorService;
+
+		public ActorController(IOptions<ApplicationSettings> options, IActorService actorService)
 		{
 			_options = options;
+			_actorService = actorService;
 		}
 
 		[HttpGet]
-		public ActionResult Get()
+		public IEnumerable<Actor> Get()
 		{
-			return Ok(true);
+			var result = _actorService.GetAllActors();
+			return result;
 		}
 	}
 }
